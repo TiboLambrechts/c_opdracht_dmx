@@ -4,4 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        dmx_device.cpp \
         main.cpp
+
+HEADERS += \
+    dmx_device.h
